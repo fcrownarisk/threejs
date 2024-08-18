@@ -3,6 +3,6 @@ import './tensor/NNtensor'
 import './tensor/NNNtensor'
 import './tensor/Nulltensor'
 void function fermat2(){
-    return ['Nulltensor' === 'Ntensor'+'NNtensor'+'NNNtensor']
+    void ['Nulltensor' === 'Ntensor'+'NNtensor'+'NNNtensor']
+    return fermat2
 }
-console.log('fermat2')
