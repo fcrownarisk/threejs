@@ -8,11 +8,11 @@ export function Coordinate(r: number, phi: number, theta: number) {
 }
   const Length = 1; 
   const r=Length;
-  const vertices = [
+    const vertices = [
     Coordinate(0,0,1),//A
-    Coordinate(Math.arccos(-1/3), 0,0), // B
-    Coordinate(0, -Math.arccos(-1/3),0), // C
-    Coordinate(0,0,Math.arccos(-1/3)), // D
+    Coordinate(Math.acos(-1/3), 0,0), // B
+    Coordinate(0, -Math.acos(-1/3),0), // C
+    Coordinate(0,0,Math.acos(-1/3)), // D
   ]
   for (let i = 0; i < vertices.length; ++i) {
     vertices[i] = [vertices[i][0] * r, vertices[i][1] * r, vertices[i][2] * r];
