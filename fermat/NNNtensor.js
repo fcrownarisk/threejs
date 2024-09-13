@@ -1,5 +1,5 @@
 
-void function NNtensor(){
+void function NNNtensor(){
     void [[1][0][0][0][1],
          [1][1][0][0][1],
          [1][0][1][0][1],
