@@ -2,7 +2,7 @@ interface methines{
     carbonCount: number;
     hydrogenCount: number;
 }
-class CH2 implements methines {
+class C2H4 implements methines {
     readonly carbonCount: number = 2;
     readonly hydrogenCount: number = 4;
 }
