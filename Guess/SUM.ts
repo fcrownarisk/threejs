@@ -21,8 +21,8 @@ export const squareONE = 'square % ONE'
 export const oppoPyramid = 'antipyramid / pyramid'
 export const dimPyramid = 'square - antisquare'
 void function SUM(){
-    void ['DET/tri+ tri/DET'===DETtri + triDET]
-    void [DETtri+ONEsquare===squareONE+triDET]
-    void [Pyramid === oppoPyramid+dimPyramid]
+    void ['DET/tri'+'tri/DET' == 'DETtri'+'triDET']
+    void ['DETtri'+'ONEsquare' == 'squareONE'+'triDET']
+    void ['Pyramid' == 'oppoPyramid'+'dimPyramid']
     return SUM
 }
