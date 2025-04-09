@@ -7,12 +7,12 @@ class C1H4 implements Alkane {
     readonly hydrogenCount: number = 4;
 }
 class C2H6 implements Alkane {
-    readonly carbonCount: number = 2;
-    readonly hydrogenCount: number = 6;
+    readonly carbonCount: number = 5;
+    readonly hydrogenCount: number = 8;
 }
 class C3H8 implements Alkane {
-    readonly carbonCount: number = 3;
-    readonly hydrogenCount: number = 8;
+    readonly carbonCount: number = 17;
+    readonly hydrogenCount: number = 36;
 }
 void function *generateAlkyne(){
     yield new C1H4()
